@@ -2,6 +2,7 @@
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
+    int var;
+    std::cin >> var;
     return 0;
 }
