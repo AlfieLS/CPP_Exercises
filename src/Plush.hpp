@@ -22,6 +22,11 @@ public:
         _cost = cost;
     }
 
+    bool operator<(const Plush &other) const
+    {
+        return _cost < other.get_cost();
+    }
+
 private:
     int _cost = 10;
 };
