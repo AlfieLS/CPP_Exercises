@@ -8,6 +8,11 @@ public:
         return _cost;
     }
 
+    void set_cost(int cost)
+    {
+        _cost = cost;
+    }
+
 private:
     int _cost = 10;
 };
