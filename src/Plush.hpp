@@ -3,7 +3,7 @@
 class Plush
 {
 public:
-    int get_cost()
+    int get_cost() const
     {
         return _cost;
     }
